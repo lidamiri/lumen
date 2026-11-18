@@ -1,0 +1,9 @@
+{"id": "returns-window", "question": "How many days do customers have to return a product?", "expected": ["30 days"], "reference": "Customers may return most products within 30 days of delivery."}
+{"id": "refund-time", "question": "How long does a refund take after inspection?", "expected": ["5 business days"]}
+{"id": "final-sale", "question": "Can sale items marked final be returned?", "expected": ["cannot be returned"]}
+{"id": "return-shipping", "question": "Who pays return shipping for defective items?", "expected": ["free"]}
+{"id": "warranty-length", "question": "How long is the device warranty?", "expected": ["24 months"], "document_ids": ["warranty-and-support.md"]}
+{"id": "priority-response", "question": "How fast does priority support respond?", "expected": ["4 hours"], "document_ids": ["warranty-and-support.md"]}
+{"id": "chunk-size", "question": "How large are the document chunks produced by ingestion?", "expected": ["800 characters"], "document_ids": ["platform-architecture.md"]}
+{"id": "rate-limit", "question": "How are requests to the language model limited?", "expected": ["token bucket"], "document_ids": ["platform-architecture.md"]}
+{"id": "out-of-scope", "question": "What is the stock price of the company?", "expected": ["do not know"]}
